@@ -29,10 +29,10 @@ public class RulesTest {
     }
     @Test
     public void globalTest(){
-        KieServices kieServices = KieServices.Factory.get();
-        KieContainer kieContainer = kieServices.getKieClasspathContainer();
-        KieSession kieSession = kieContainer.newKieSession("rules");
-        kieSession.setGlobal("","");
+//        KieServices kieServices = KieServices.Factory.get();
+//        KieContainer kieContainer = kieServices.getKieClasspathContainer();
+//        KieSession kieSession = kieContainer.newKieSession("rules");
+//        kieSession.setGlobal("","");
 
     }
 

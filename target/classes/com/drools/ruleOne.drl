@@ -1,0 +1,20 @@
+package  com.drools
+
+import com.drools.study.model.Person
+
+
+rule "hello"
+date-effective "2018-2-12"
+when
+
+then
+    System.out.println("hello,world!");
+
+end
+
+//rule "有参数的规则"
+//when
+//    $p : Person( $p.getAge() > 18)
+//then
+//    System.out.println($p.getName() + " 可以去网吧了！");
+//end
